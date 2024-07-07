@@ -336,6 +336,84 @@ section {
   font-size: 2rem;
   color: #fff;
 }
+/* ================== */
+.rev {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.rev .content {
+  flex: 1 1 42rem;
+}
+
+.rev .content span {
+  font-size: 2rem;
+  color: #29d9d5; 
+}
+
+.rev .content h3 {
+  font-size: 3rem;
+  color:#fff ; 
+}
+
+.rev .content p {
+  font-size: 1.4rem;
+  color: #aaa; 
+  padding: 1rem 0;
+  line-height: 2;
+}
+
+.rev .box-container {
+  flex: 1 1 42rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.rev .box-container .box {
+  flex: 1 1 20rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  background: #222; 
+  border: .2rem solid #111;
+}
+
+.rev .box-container .box:hover {
+  border: .2rem solid #29d9d5;
+}
+
+.rev .box-container .box p {
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+  line-height: 2;
+  color: #aaa; 
+}
+
+.rev .box-container .box .user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.rev .box-container .box .user img {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.rev .box-container .box .user h3 {
+  font-size: 1.7rem;
+  color: #fff; 
+}
+
+.rev .box-container .box .user span {
+  color: #aaa; 
+  font-size: 1.5rem;
+}
+
+/* ================== */
 
 .blogs .box-container {
   display: grid;
