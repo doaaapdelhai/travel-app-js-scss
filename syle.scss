@@ -91,6 +91,8 @@ section{
  align-items: center;
  justify-content: space-between;
  padding: 1.5rem 9%;
+ position: fixed;
+ z-index: 11;
 
 .navbar a{
     font-size: 1.7rem;
