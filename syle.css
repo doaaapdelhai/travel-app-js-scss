@@ -74,6 +74,8 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 9%;
+  position: fixed;
+  z-index: 11;
 }
 .header .navbar a {
   font-size: 1.7rem;
@@ -336,84 +338,70 @@ section {
   font-size: 2rem;
   color: #fff;
 }
-/* ================== */
+
 .rev {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
 }
-
 .rev .content {
   flex: 1 1 42rem;
 }
-
 .rev .content span {
   font-size: 2rem;
-  color: #29d9d5; 
+  color: #29d9d5;
 }
-
 .rev .content h3 {
   font-size: 3rem;
-  color:#fff ; 
+  color: #fff;
 }
-
 .rev .content p {
   font-size: 1.4rem;
-  color: #aaa; 
+  color: #aaa;
   padding: 1rem 0;
   line-height: 2;
 }
-
 .rev .box-container {
   flex: 1 1 42rem;
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
 }
-
 .rev .box-container .box {
   flex: 1 1 20rem;
   border-radius: 1rem;
   padding: 2rem;
-  background: #222; 
-  border: .2rem solid #111;
+  background: #222;
+  border: 0.2rem solid #111;
 }
-
 .rev .box-container .box:hover {
-  border: .2rem solid #29d9d5;
+  border: 0.2rem solid #29d9d5;
 }
-
 .rev .box-container .box p {
   font-size: 1.4rem;
   padding-bottom: 1rem;
   line-height: 2;
-  color: #aaa; 
+  color: #aaa;
 }
-
 .rev .box-container .box .user {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-
 .rev .box-container .box .user img {
   height: 5rem;
   width: 5rem;
   border-radius: 50%;
 }
-
 .rev .box-container .box .user h3 {
   font-size: 1.7rem;
-  color: #fff; 
+  color: #fff;
 }
-
 .rev .box-container .box .user span {
-  color: #aaa; 
+  color: #aaa;
   font-size: 1.5rem;
 }
-
-/* ================== */
 
 .blogs .box-container {
   display: grid;
@@ -606,7 +594,8 @@ section {
     top: 99%;
     left: 0;
     right: 0;
-    background: var(--bg-color);
+    /* background-color: var(--bg-color); */
+    background-color:#222;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
             clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
@@ -620,7 +609,7 @@ section {
     display: block;
   }
   .home {
-    margin-right: 10rem;
+    /* margin-right: 10rem; */
   }
   .home .content span {
     font-size: 8vw;
@@ -631,7 +620,7 @@ section {
 }
 @media (max-width: 450px) {
   .book-form {
-    margin-right: 56px;
+    margin-right: 40px;
   }
   html {
     font-size: 50%;

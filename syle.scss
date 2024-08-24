@@ -35,7 +35,7 @@ html{
     }
     &::-webkit-scrollbar-track{
         background: $black;
-    }
+    } 
     &::-webkit-scrollbar-thumb{
         background: $blue;
     }
@@ -86,17 +86,19 @@ section{
  top: 0;
  left: 0;
  right: 0;
- background: $bg-color;
  display: flex;
  align-items: center;
  justify-content: space-between;
  padding: 1.5rem 9%;
+ position: fixed;
+ z-index: 11;
 
 .navbar a{
     font-size: 1.7rem;
     color: $light-color;
     display: inline-block;
     margin: 0 1rem;
+
 
     &:hover{
        color: $blue;       
